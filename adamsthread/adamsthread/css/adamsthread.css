@@ -1,0 +1,143 @@
+.col-sm-8 {
+	float: left;
+}
+
+.col-sm-4 {
+	float: right;
+}
+
+.weather {
+	float: right;
+}
+
+.navbar-static-top {
+	padding-bottom: 0px;
+	list-style: none;
+	background: #ffffff;
+	border: none;
+	height: 50px;
+	position: relative;
+}
+
+.navbar a {
+	font-family: sans-serif;
+	color: black;
+	display: inline-block;
+}
+
+.icon-bar {
+	background-color: #000000;
+}
+
+.navbar-toggle {
+	color: #ffffff;
+	border-color: #000000;
+	position: right;
+}
+
+.menu {
+	background: #ffffff;
+}
+.menu li:hover {
+	background: #999999;
+}
+.menu1 {
+	background: #FF6E6E;
+}
+.menu1:hover {
+	color: #A04E4E;
+	opacity: 1;
+}
+.menu2 {
+	background: #E88943;
+}
+.menu3 {
+	background: #E0D546;
+}
+.menu4 {
+	background: #63E843;
+}
+.menu5 {
+	background: #4F99DB;
+}
+.menu6 {
+	background: #7958ED;
+}
+.menu7 {
+	background: #C658F9;
+}
+.menu8 {
+	background: #000000;
+}
+.menu8 a {
+	color: #ffffff;
+}
+
+.sub-menu {
+	background: #FF6E6E;
+	position: absolute;
+}
+
+.sub-menu ul a {
+	width: 135px;
+	line-height: 40px;
+	padding: 0 20px;
+	display: inline-block;
+	background: #FF6E6E;
+}
+
+.sub-menu ul li {
+	position: relative;
+	float: left;
+	background: #FF6E6E;
+}
+
+.sub-menu ul {
+	position: absolute;
+	top: -9999999px;
+	left: 0;
+	opacity: 0;
+	background: #FF6E6E;
+	text-align: left;
+}
+
+.navbar ul li:hover > ul{
+	position: absolute;
+	top: 100%;
+	opacity: 1;
+	background: #FF6E6E;
+}
+
+.body{
+	
+	color: #333;
+	background: #eee;
+	font-family: sans-serif;
+	height: 100%;
+	padding: 20px; 
+	margin-top: 100px;
+}
+
+.blog-element { display: block; height: 200px; overflow: hidden; background: center center; background-repeat: no-repeat; background-size: cover; }
+.blog-element a { color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,0.5); }
+
+
+.second-row-padding:nth-child(2) { padding-right: 0; padding-left: 0; }
+.second-row-padding:nth-child(3) { padding-left: 0; padding-right: 0; }
+
+.third-row-padding { padding: 0; }
+.third-row-padding:nth-child(2) { padding-left: 15px; }
+.third-row-padding:nth-child(3) { padding-right: 15px; }
+
+.search-form-container {
+	display: none;
+}
+
+.widget-area {
+	float: right;
+}
+
+.footer {
+	bottom: 0;
+	position: relative;
+}
