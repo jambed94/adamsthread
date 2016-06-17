@@ -28,7 +28,7 @@ get_header(); ?>
 
 					<h1></h1>
 
-					<small>Posted on: <?php the_time('j F, Y'); ?> at <?php the_time('g:i a') ?>, in <?php the_category(); ?></small>
+					<small class="posts">Posted on: <?php the_time('j F, Y'); ?> at <?php the_time('g:i a') ?>, in <?php the_category(); ?></small>
 
 					<p><?php the_content(); ?></p>
 

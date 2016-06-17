@@ -7,8 +7,7 @@
 						
 						<div class="col-xs-12">
 
-							<div class="footer footer-static-bottom">
-								<p>This is my footer</p>
+							
 									
 							</div>
 

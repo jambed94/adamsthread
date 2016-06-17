@@ -28,7 +28,7 @@
 									
 										<?php endif; ?>
 										
-										<small><?php the_category(' '); ?> || <?php the_tags(); ?> || <?php edit_post_link(); ?></small>
+										<small class="posts"><?php the_category(' '); ?> || <?php the_tags(); ?> || <?php edit_post_link(); ?></small>
 										
 										<?php the_content(); ?>
 										

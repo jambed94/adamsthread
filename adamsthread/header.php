@@ -9,9 +9,9 @@
 	<?php
 
 		if( is_front_page() ):
-			$adamsthread_classes = array('myfirst-class', 'my-class');
+			$adamsthread_classes = array('adamsthread-class', 'my-class');
 		else:
-			$adamsthread_classes = array('not-myfirsttheme');
+			$adamsthread_classes = array('not-adamsthread');
 		endif;
 
 	?>
@@ -22,14 +22,14 @@
 
 		<div class="container">
 		
-			<div class="row">
+			<div class="row-nav">
 				
 				<div class="col-xs-12">
 					
 					<div class="navbar navbar-white navbar-static-top">
 				    	<div class="container">
 				         	<div class="navbar-header">
-				            	<img class="logo" src=""/>
+				            	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/at_full.png" alt="Adams Thread" class="logo" href="Home"></img>
 				            	<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 				            	<span class="icon-bar"></span>
 				            	<span class="icon-bar"></span>
@@ -43,9 +43,9 @@
 				            		<li class="menu1""dropdown">
 				                    	<a href="dropdown-toggle" data-toggle="dropdown">News<b class="caret"></b></a>
 				                    	<ul class="dropdown-menu">
-				                    		<li><a href="Local">Local</a></li>
-				                            <li><a href="National">National</a></li>
-				                            <li><a href="International">International</a></li>   
+				                    		<li><a href="submenu">Local</a></li>
+				                            <li><a href="submenu">National</a></li>
+				                            <li><a href="submenu">International</a></li>   
 				                    	</ul>
 				                    </li>
 				                    <li class="menu2"><a href="Politics">Politics</a></li>
